@@ -1,0 +1,23 @@
+<h2> Enrol a new student</h2>
+
+<form action="/students" method="POST">
+
+  <label for="firstName">First Name:</label>
+  <input type="text" name="first_name" id="firstName">
+
+  <label for="lastName">Last Name:</label>
+  <input type="text" name="last_name" id="lastName">
+
+  <label for="houseSelect">Select a House</label>
+    <select name="house_id" id='houseSelect'>
+      <%@houses.each do |house|%>
+      <option value="<%=house.id%>"><%=house.name%></option>
+      <% end %>
+    </select>
+
+  <label for="age">Age</label>
+  <input type="number" name="age" id="age">
+
+  <input type="submit" value="Submit">
+
+</form>

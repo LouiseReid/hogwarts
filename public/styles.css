@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  background-color: #433E3F;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+#img {
+  display: flex;
+  align-self: flex-end;
+  width: 15%
+}
