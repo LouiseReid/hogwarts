@@ -1,9 +1,15 @@
 <h1> Students </h1>
 
+
+
+
 <% @students.each do |student| %>
+<div class="students">
 <p>First Name: <%= student.first_name() %></p>
 <p>Last Name: <%= student.last_name() %></p>
 <p>House: <%= student.house_of_student.name() %></p>
 <p>Age: <%= student.age() %></p>
+
+</div>
 
 <% end %>

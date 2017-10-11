@@ -1,15 +1,71 @@
-nav {
-  display: flex;
-  background-color: #433E3F;
-  justify-content: space-between;
+body {
+  margin: 0;
+  font-family: verdana;
 }
 
-nav ul {
-  list-style-type: none;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #5B6057;
+    display: flex;
 }
 
-#img {
-  display: flex;
-  align-self: flex-end;
-  width: 15%
+li {
+    float: right;
+    padding-top: 30px;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 280px;
+    text-decoration: none;
+    height: 100%;
+}
+
+li a:hover {
+    background-color: #8E9B90;
+}
+
+img {
+ margin-left: 27%;
+}
+
+.students {
+  background-color: #8E9B90;
+}
+
+.students:nth-child(2n) {
+  background: #B6C4A2;
+}
+
+
+#gif {
+  display: inline-block;
+
+}
+ iframe {
+  padding-top: 95px;
+  margin-left: 30%;
+ }
+
+.newstudent {
+  background: #5B7553;
+  border: 10px lightgrey solid;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.tenor-gif-embed{
+  padding: 0;
 }

@@ -45,6 +45,12 @@ class Student
     SqlRunner.run(sql, values)
   end
 
+  def delete()
+    sql = "DELETE FROM students where id = $1"
+    values = [@id]
+    SqlRunner.run(sql, values)
+  end
+
   def house_of_student()
     sql = "SELECT * FROM houses WHERE id = $1;"
     values = [@house_id]
